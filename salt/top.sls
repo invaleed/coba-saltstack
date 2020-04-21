@@ -7,3 +7,4 @@ base:
     - nginx
     - php
     - firewall
+    - mysql

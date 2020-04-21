@@ -10,3 +10,4 @@ public:
       - 22/tcp
       - 80/tcp
       - 443/tcp
+      - 3306/tcp
