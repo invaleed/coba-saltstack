@@ -4,3 +4,6 @@ base:
     - ssh
     - users
     - chrony
+    - nginx
+    - php
+    - firewall
