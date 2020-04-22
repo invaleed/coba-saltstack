@@ -11,6 +11,6 @@ mariadb-service-enabled:
 
 mysql_root_password:
   cmd.run:
-    - name: mysqladmin --user root password 'PASSW0RD'
+    - name: mysqladmin --user root password 'P@ssw0rd'
     - require:
       - service: mariadb

@@ -9,6 +9,11 @@ nginx.conf:
     - name: /etc/nginx/nginx.conf
     - source: salt://nginx/files/nginx.conf
 
+index.php:
+  file.managed:
+    - name: /usr/share/nginx/html/index.php
+    - source: salt://nginx/files/index.php
+
 restart_nginx:
   service.running:
     - name: nginx
