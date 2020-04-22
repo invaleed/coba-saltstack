@@ -8,3 +8,5 @@ base:
     - php
     - firewall
     - mysql
+    - redis-server
+    - mongodb

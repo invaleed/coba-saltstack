@@ -8,3 +8,5 @@ common-tools:
       - tree
       - net-tools
       - nmap
+      - make
+      - gcc-c++
